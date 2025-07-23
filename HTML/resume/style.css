@@ -1,0 +1,112 @@
+*{
+    font-family: Arial;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    padding: 20px 20px;
+}
+.header{
+    text-align: center;
+    background-color: greenyellow;
+    border-radius: 90px;
+}
+
+.header h5{
+    margin-top: -20px;
+}
+
+.header a{
+    color: black;
+}
+
+.exp hr{
+    margin-top: -10px;
+}
+
+.exp h3{
+    background-color: greenyellow;
+    border-radius: 90px;
+    width: fit-content;
+}
+
+.exp h5{
+    float: right;
+    margin-top: -40px;
+}
+
+.projects hr{
+    margin-top: -10px;
+}
+
+.projects h3{
+    background-color: greenyellow;
+    border-radius: 90px;
+    width: fit-content;
+}
+
+.skills hr{
+    margin-top: -10px;
+}
+
+.skills h3{
+    background-color: greenyellow;
+    border-radius: 90px;
+    width: fit-content;
+}
+
+.skills ul{
+    text-align: left;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.skills li{
+    padding: 15px;
+    
+}
+
+.edu hr{
+    margin-top: -10px;
+}
+
+.edu h3{
+    background-color: greenyellow;
+    border-radius: 90px;
+    width: fit-content;
+}
+
+.edu p{
+    float: right;
+    margin-top: -40px;
+    text-transform: capitalize;
+}
+
+.gpa{
+    float: right;
+    margin-top: -10px;
+}
+
+.sch p{
+    float: right;
+    margin-top: -40px;
+}
+
+.mar{
+    float: right;
+}
+
+.ach hr{
+    margin-top: -10px;
+}
+
+.ach h3{
+    background-color: greenyellow;
+    border-radius: 90px;
+    width: fit-content;
+}
