@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CV</title>
+    <style>
+        *{ font-family: Arial; }
+        .container{ width: 900px; margin: 0 auto; border: 2px solid lightgray; padding: 20px 20px; }
+        .header{ text-align: center; background-color: greenyellow; border-radius: 90px; padding: 10px; }
+        .header h5{ margin-top: -20px; }
+        .header a{ color: black; text-decoration: none; }
+        .header a:hover{ text-decoration: underline; }
+        .summary{ margin: 20px 0; }
+        .exp hr, .projects hr, .skills hr, .edu hr, .ach hr, .cert hr, .languages hr, .interests hr{ margin-top: -10px; }
+        .exp h3, .projects h3, .skills h3, .edu h3, .ach h3, .cert h3, .languages h3, .interests h3{
+            background-color: greenyellow; border-radius: 90px; width: fit-content; padding: 5px 15px; margin-bottom: 10px;
+        }
+        .exp h5, .edu p, .sch p{ float: right; margin-top: -40px; }
+        .skills ul{ text-align: left; height: 20px; display: flex; flex-wrap: wrap; list-style: none; padding-left: 0; }
+        .skills li{ padding: 15px; background-color: #f0f0f0; margin: 5px; border-radius: 5px; }
+        .gpa, .mar{ float: right; margin-top: -10px; }
+    </style>
+</head>
 
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Nithilan M</h1>
+            <h5>
+                <a href="mailto:your.email@example.com">am.nithilan@example.com</a>
+                <a href="https://github.com/madeformoney">| GitHub</a>
+                <a href="https://linkedin.com/in/madeformoney">| LinkedIn</a>
+                <a href="tel:+919876543210">| +91 98765 43210</a>
+            </h5>
+        </div>
+
+        <hr>
+        <div class="summary">
+            <p><strong>Professional Summary:</strong> Passionate AI and Data Science undergraduate with strong hands-on experience in deep learning, machine learning, and web technologies. Known for building real-world projects like personalized RAG chatbots, ML dashboards, and AI-based triage systems. Ranked top 5 in India for NPTEL Introduction to LLMs. Eager to explore cutting-edge AI applications and contribute to impactful tech solutions.</p>
+        </div>
+
+        <div class="exp">
+            <h3>Internship Experience</h3>
+            <hr>
+
+            <h4>Data Analyst Intern - 8Queens Software Technologies, Chennai</h4>
+            <h5 style="font-style: italic;">May 2025 - July 2025</h5>
+            <ul>
+                <li>Cleaned, analyzed, and visualized client data using OpenRefine, Power BI, and Python</li>
+                <li>Created an ML model to predict customer behavior for British Airways (Forage Project)</li>
+                <li>Developed an LLM-powered company chatbot using Pinecone and Flowise with web-scraped content</li>
+                <li>Collaborated on data science use cases for real-world clients</li>
+            </ul>
+        </div>
+
+        <div class="projects">
+            <h3>Key Projects</h3>
+            <hr>
+
+            <h4>Personalized CBSE RAG Tutor</h4>
+            <ul>
+                <li>Built a retrieval-based chatbot using FAISS and Gemini for 10th-grade CBSE books</li>
+                <li>Used user interests to personalize explanations dynamically</li>
+            </ul>
+
+            <h4>AI-Based Clinic Triage System</h4>
+            <ul>
+                <li>Developed a symptom-to-department prediction system using ML and LLMs</li>
+                <li>Deployed on Flowise with modular supervisor-worker architecture</li>
+            </ul>
+
+            <h4>Tomato Price Forecasting</h4>
+            <ul>
+                <li>Developed an ANN regressor to predict future tomato prices in Tamil Nadu</li>
+                <li>Used an LLM to explain price trends and inference from the forecast</li>
+            </ul>
+
+            <h4>CSV Chatbot</h4>
+            <ul>
+                <li>Created a Streamlit tool to upload CSVs and chat with Gemini</li>
+                <li>Performed tasks like NaN detection, column analysis, and charting</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h3>Technical Skills</h3>
+            <hr>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Streamlit</li>
+                <li>Django REST Framework</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>RAG Systems</li>
+                <li>Vector DBs (FAISS, Pinecone)</li>
+                <li>Flowise</li>
+                <li>LLMs</li>
+                <li>Power BI</li>
+                <li>SQL</li>
+                <li>Data Analysis</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="edu">
+            <h3>Education</h3>
+            <hr>
+
+            <h4>B.Tech in Artificial Intelligence & Data Science</h4>
+            <p style="font-style: italic;">2023 - 2027</p>
+            <span style="font-size: 17px;">SNUC</span>
+            <span class="gpa">CGPA: 8.9/10</span>
+            <br><br>
+        </div>
+
+        <div class="cert">
+            <h3>Certifications</h3>
+            <hr>
+            <ul>
+                <li>NPTEL – Introduction to LLMs (AIR 5)</li>
+                <li>Responsible AI by NPTEL (AIR 16)</li>
+                <li>British Airways Data Science Virtual Internship – Forage</li>
+                
+            </ul>
+        </div>
+
+        <div class="languages">
+            <h3>Languages</h3>
+            <hr>
+            <ul>
+                <li>English (Fluent)</li>
+                <li>Tamil (Native)</li>
+                <li>German (Beginner – Learning)</li>
+            </ul>
+        </div>
+
+        <div class="ach">
+            <h3>Awards & Achievements</h3>
+            <hr>
+            <ul>
+                <li>All India Rank 5 – NPTEL Introduction to LLMs</li>
+                <li>All India Rank 16 – Responsible AI (NPTEL)</li>
+                <li>Top Performer – College Semester CGPA 9.3</li>
+                <li>Built and Deployed Multiple RAG and ML Projects</li>
+            </ul>
+        </div>
+
+        <div class="interests">
+            <h3>Interests</h3>
+            <hr>
+            <ul>
+                <li>AI Research</li>
+                <li>Building with LLMs</li>
+                <li>Open Source Tools</li>
+                <li>Mentoring juniors</li>
+                <li>Sports Cars & F1</li>
+                <li>Learning New Languages</li>
+            </ul>
+        </div>
+
+        <br><br>
+    </div>
+</body>
+</html>
